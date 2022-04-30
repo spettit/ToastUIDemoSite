@@ -19,6 +19,7 @@
   },
   "type": "module",
   "dependencies": {
+    "toastcharts": "^0.0.1",
     "toastcomponents": "^0.0.7",
     "toasteditor": "^0.0.11"
   }
