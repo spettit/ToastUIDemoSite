@@ -1,14 +1,20 @@
 <script>
-	import { getStores, navigating, page, session, updated } from '$app/stores';
+	import { page } from '$app/stores';
 	$: console.log($page.url.pathname);
 </script>
 
 <section>
 	<div id="logo">
-		<a href="/"><h1>Toastie</h1></a>
+		<a href="/">
+			<img src="toast-icon.png" alt="icon" width="160px" />
+			<div id="ie">
+				<span>IE</span>
+			</div>
+		</a>
 	</div>
 	<div id="top-bar">
-		<h2>Welcome to the Toastie Demo Site</h2>
+		<h2>Demos</h2>
+		<hr />
 	</div>
 	<nav>
 		<a href="/pickers" class:active={$page.url.pathname == '/pickers'}>pickers</a>
@@ -55,6 +61,16 @@
 	h1 {
 		color: white;
 		margin-left: 10px;
+	}
+
+	span {
+		color: white;
+		font-size: 37px;
+		font-weight: bold;
+	}
+	#ie {
+		display: inline-block;
+		transform: translate(-6px, -7px);
 	}
 
 	.active {
