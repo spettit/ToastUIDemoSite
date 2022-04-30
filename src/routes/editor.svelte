@@ -4,4 +4,12 @@
 
 <h2>WYSIWYG Editor</h2>
 
-<ToastEditor code={true} />
+<section>
+	<ToastEditor code={true} />
+</section>
+
+<style>
+	section {
+		width: 900px;
+	}
+</style>
