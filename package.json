@@ -19,8 +19,9 @@
   },
   "type": "module",
   "dependencies": {
+    "hoteldiary": "^0.0.5",
     "toastcharts": "^0.0.3",
-    "toastcomponents": "^0.0.8",
+    "toastcomponents": "^0.0.10",
     "toasteditor": "^0.0.12"
   }
 }

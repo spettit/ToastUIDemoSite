@@ -57,10 +57,10 @@
 		font-weight: bold;
 	}
 
-	h1 {
+	/* h1 {
 		color: white;
 		margin-left: 10px;
-	}
+	} */
 
 	span {
 		color: white;

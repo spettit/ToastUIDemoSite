@@ -1,25 +1,27 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
+  hoteldiary: ^0.0.5
   prettier: ^2.5.1
   prettier-plugin-svelte: ^2.5.0
   svelte: ^3.44.0
   toastcharts: ^0.0.3
-  toastcomponents: ^0.0.8
+  toastcomponents: ^0.0.10
   toasteditor: ^0.0.12
 
 dependencies:
+  hoteldiary: 0.0.5
   toastcharts: 0.0.3
-  toastcomponents: 0.0.8
+  toastcomponents: 0.0.10
   toasteditor: 0.0.12
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.40
   '@sveltejs/kit': 1.0.0-next.324_svelte@3.47.0
   prettier: 2.6.2
-  prettier-plugin-svelte: 2.7.0_prettier@2.6.2+svelte@3.47.0
+  prettier-plugin-svelte: 2.7.0_sqtt6dzjlskmywoml5ykunxlce
   svelte: 3.47.0
 
 packages:
@@ -433,6 +435,12 @@ packages:
       function-bind: 1.1.1
     dev: true
 
+  /hoteldiary/0.0.5:
+    resolution: {integrity: sha512-X6twOlIOUifxuhUPMVMORLAwVTtUpgom5y2/Zupg0jytQ+hjjTK8cjDc2Ss+TEExp3/YLZvSEbQbx9UVXGj+sg==}
+    dependencies:
+      date-fns: 2.28.0
+    dev: false
+
   /is-binary-path/2.1.0:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
     engines: {node: '>=8'}
@@ -526,7 +534,7 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /prettier-plugin-svelte/2.7.0_prettier@2.6.2+svelte@3.47.0:
+  /prettier-plugin-svelte/2.7.0_sqtt6dzjlskmywoml5ykunxlce:
     resolution: {integrity: sha512-fQhhZICprZot2IqEyoiUYLTRdumULGRvw0o4dzl5jt0jfzVWdGqeYW27QTWAeXhoupEZJULmNoH3ueJwUWFLIA==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
@@ -687,8 +695,8 @@ packages:
       '@toast-ui/chart': 4.4.3
     dev: false
 
-  /toastcomponents/0.0.8:
-    resolution: {integrity: sha512-NznwylQrgY3zSZFz1ceVImQEbLKzRztyuz2VtSzsMhZXrPyXlw8+NvCTVBfl6F4zRfJIQQvRNsjCy6am4I+TFg==}
+  /toastcomponents/0.0.10:
+    resolution: {integrity: sha512-VDGm0KXOLBl7/CKvAKEKd7NcvVJ8NCPA6A/t6QzgohYIvp/JiNRVXEqG5fkZ1NYAY6DZ/50bjxzEyTKhN6oDKA==}
     dependencies:
       date-fns: 2.28.0
       tui-date-picker: 4.3.1
